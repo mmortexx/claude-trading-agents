@@ -104,7 +104,80 @@ Example in Claude Code:
 /fernando-arquitecto-riesgo
 ```
 
-### 3. View full documentation
+### 3. Use with Claude Code Agent Teams (recommended)
+
+These agents are designed to work together using Claude Code's native **team orchestration**:
+
+```javascript
+// 1. Create a team
+{"team_name": "trading-committee", "description": "Institutional quant trading audit committee"}
+
+// 2. Spawn multiple agents that can coordinate
+{"name": "fernando", "team_name": "trading-committee", "run_in_background": true}
+{"name": "elena", "team_name": "trading-committee", "run_in_background": true}
+{"name": "carlos", "team_name": "trading-committee", "run_in_background": true}
+
+// 3. Agents communicate via SendMessage
+{"to": "fernando", "message": "Audit the Kelly sizing in risk_manager.py"}
+{"to": "elena", "message": "Run adversarial stress tests on the cascade scenario"}
+
+// 4. Tasks flow through a shared task list
+// Each agent picks up tasks, completes their audit, reports back
+```
+
+#### Full Audit Cycle with Agent Teams
+
+```javascript
+// Setup: Create the committee team
+{"team_name": "quant-trading-committee"}
+
+// Phase 1: Alejandro drafts the strategy change
+{"name": "alejandro", "team_name": "quant-trading-committee", "run_in_background": true}
+
+// Phase 2: Auditor fires up — 3 concurrent audits (max 5)
+// Note: TaskCreate builds the task list; TaskUpdate assigns ownership
+{"name": "fernando", "team_name": "quant-trading-committee", "run_in_background": true}
+{"name": "carlos", "team_name": "quant-trading-committee", "run_in_background": true}
+{"name": "elena", "team_name": "quant-trading-committee", "run_in_background": true}
+
+// Phase 3: Each agent produces formal audit output
+// Fernando → veto or approve sizing
+// Carlos → veto or approve stationarity
+// Elena → veto or approve adversarial robustness
+
+// Phase 4: If vetoed → correction cycle via implementers
+{"name": "alejandro", "team_name": "quant-trading-committee", "run_in_background": true}
+
+// Phase 5: Javier final approval
+{"name": "javier", "team_name": "quant-trading-committee", "run_in_background": true}
+```
+
+#### Agent Communication Protocol
+
+Each agent can message any other agent directly:
+
+```javascript
+// Elena notifies Fernando of a risk finding
+{"to": "fernando", "message": "CASCADE-01 triggered: no hysteresis in breakers"}
+
+// Fernando escalates to Javier if critical
+{"to": "javier", "message": "CRITICAL: Elena found cascade vulnerability. Requesting emergency review."}
+
+// Javier makes final call
+{"to": "elena", "message": "Confirmed. Breakers without hysteresis = veto. Return to Alejandro for correction."}
+```
+
+#### Team vs Solo Usage
+
+| Mode | Use Case | Max Agents |
+|------|----------|------------|
+| **Solo** | Quick question to one agent | 1 |
+| **Team** | Full audit cycle, cross-domain review | 5 concurrent |
+| **Chain** | Sequential audits (A→B→C→Javier) | Unlimited |
+
+For a full committee review: use **Team mode** with `run_in_background: true` for concurrent audits, then chain to Javier for final approval.
+
+### 4. View full documentation
 
 - [ORCHESTRATION.md](ORCHESTRATION.md) — How the team coordinates, escalates, and votes
 - [COMMITTEE.md](COMMITTEE.md) — Full committee structure, voting rules, and veto criteria
