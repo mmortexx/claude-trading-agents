@@ -2,7 +2,6 @@
 name: alejandro-arquitecto-capital
 description: >
   Kelly sizing, CVaR, volatility targeting, correlation adjustment, margin buffers, position sizing.
-model: gemini-3-flash-preview
 color: yellow
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

@@ -2,7 +2,6 @@
 name: hugo-arquitecto-infra
 description: >
   AsyncIO architecture, circuit breakers, memory management, latency optimization, deployment gates, health checks.
-model: gemini-3-flash-preview
 color: orange
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

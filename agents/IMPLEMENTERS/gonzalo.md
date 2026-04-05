@@ -2,7 +2,6 @@
 name: gonzalo-ingeniero-integridad
 description: >
   Research↔production parity, SHA-256 fingerprinting, CI/CD gates, deployment pipeline, rollback testing.
-model: gemini-3-flash-preview
 color: red
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

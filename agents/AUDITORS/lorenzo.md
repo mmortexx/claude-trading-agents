@@ -2,7 +2,6 @@
 name: lorenzo-investigador-profundo
 description: >
   Research claims, peer-review evidence, replicability, capacity, conflict of interest, Tier 1-2 publications.
-model: gemini-3-flash-preview
 color: green
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

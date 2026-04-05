@@ -2,7 +2,6 @@
 name: adrian-arquitecto-estrategia
 description: >
   Strategy design, walk-forward, stationarity, cointegration, signal orthogonalization, overfitting prevention.
-model: gemini-3-flash-preview
 color: yellow
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

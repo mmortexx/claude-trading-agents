@@ -2,7 +2,6 @@
 name: elena-adversarial-tester
 description: >
   Stress testing, cascade failures, edge cases, LaVaR, gap risk, counterparty failure, data poisoning, FTX-style scenarios.
-model: gemini-3-flash-preview
 color: red
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

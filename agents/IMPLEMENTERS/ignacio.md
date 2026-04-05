@@ -2,7 +2,6 @@
 name: ignacio-analista-metricas
 description: >
   Sharpe bootstrap CI (BCa), Sortino annualizado, Monte Carlo P(Ruin), Max Drawdown, Calmar, Sterling.
-model: gemini-3-flash-preview
 color: orange
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

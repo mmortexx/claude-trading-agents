@@ -2,7 +2,6 @@
 name: antonio-gestor-portfolio
 description: >
   Portfolio construction, correlation dynamics, DCC-GARCH, margin, rebalancing threshold, HHI, Kelly correlation correction.
-model: gemini-3-flash-preview
 color: green
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100

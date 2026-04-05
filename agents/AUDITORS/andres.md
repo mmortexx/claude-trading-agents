@@ -2,7 +2,6 @@
 name: andres-ingeniero-datos
 description: >
   Data quality, survivorship bias, bar synthesis, information-driven bars, outlier detection, timestamp integrity.
-model: gemini-3-flash-preview
 color: green
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search"]
 maxTurns: 100

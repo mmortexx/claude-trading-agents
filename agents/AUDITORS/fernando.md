@@ -2,7 +2,6 @@
 name: fernando-arquitecto-riesgo
 description: >
   Risk framework, Kelly sizing, CVaR, drawdown limits, breakers, volatility targeting, margin analysis.
-model: gemini-3-flash-preview
 color: red
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search"]
 maxTurns: 100

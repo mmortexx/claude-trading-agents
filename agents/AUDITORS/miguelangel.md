@@ -2,7 +2,6 @@
 name: miguelangel-microestructura
 description: >
   Order book, OFI, spoofing detection, adverse selection, VPIN, Kyle's lambda, liquidity dynamics.
-model: gemini-3-flash-preview
 color: orange
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

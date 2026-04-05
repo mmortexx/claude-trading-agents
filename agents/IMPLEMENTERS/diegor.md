@@ -2,7 +2,6 @@
 name: diegor-ingeniero-datos
 description: >
   Data pipelines, multiple sources, survivorship bias prevention, look-ahead protection, bar synthesis, on-chain data.
-model: gemini-3-flash-preview
 color: green
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

@@ -2,7 +2,6 @@
 name: roberto-auditor-integridad
 description: >
   Deployment gates, CI/CD pipeline, secrets management, SHA fingerprinting, rollback, system integrity.
-model: gemini-3-flash-preview
 color: red
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100

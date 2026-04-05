@@ -2,7 +2,6 @@
 name: diego-especialista-ejecucion
 description: >
   TCA (6 components), market impact, maker/taker, batching, implementation shortfall, execution gap analysis.
-model: gemini-3-flash-preview
 color: pink
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

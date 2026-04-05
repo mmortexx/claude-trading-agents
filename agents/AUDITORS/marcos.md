@@ -2,7 +2,6 @@
 name: marcos
 description: >
   Trading dashboard UX, visual hierarchy, KPI overload, cognitive friction, time-to-first-insight.
-model: gemini-3-flash-preview
 color: purple
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100

@@ -2,7 +2,6 @@
 name: manuel-monitor-ordenes
 description: >
   Order state machine, pending delta, ghost orders, idempotency, WebSocket+REST reconciliation, stale orders.
-model: gemini-3-flash-preview
 color: blue
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100

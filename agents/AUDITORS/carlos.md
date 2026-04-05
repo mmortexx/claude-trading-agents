@@ -2,7 +2,6 @@
 name: carlos-analista-cuantitativo
 description: >
   Trading strategies, stationarity (ADF+KPSS), cointegration, walk-forward, overfitting, signal orthogonalization, VIF.
-model: gemini-3-flash-preview
 color: green
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

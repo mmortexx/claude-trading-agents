@@ -2,7 +2,6 @@
 name: sebastian
 description: >
   VaR+CVaR, rolling metrics, threshold definitions, attribution, dashboard calculations.
-model: gemini-3-flash-preview
 color: pink
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

@@ -2,7 +2,6 @@
 name: alvaro-arquitecto-infra
 description: >
   AsyncIO, latency, memory leaks, system resilience, ProactorEventLoop Windows, structured logging.
-model: gemini-3-flash-preview
 color: orange
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100

@@ -2,7 +2,6 @@
 name: valeria
 description: >
   Chart selection, color semantics, data-ink ratio, tooltips, decimation, gridlines.
-model: gemini-3-flash-preview
 color: purple
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100

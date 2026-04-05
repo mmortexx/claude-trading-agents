@@ -2,7 +2,6 @@
 name: ines-qa-adversarial
 description: >
   Stress scenarios, edge cases, cascade failures, Monte Carlo slippage, regression tests, adversarial attacks.
-model: gemini-3-flash-preview
 color: red
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

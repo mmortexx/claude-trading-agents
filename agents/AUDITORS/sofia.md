@@ -2,7 +2,6 @@
 name: sofia-especialista-crypto
 description: >
   Funding rates, liquidation cascades, on-chain metrics, counterparty risk, exchange diversification, mark price verification.
-model: gemini-3-flash-preview
 color: yellow
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100

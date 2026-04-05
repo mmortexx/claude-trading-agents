@@ -2,7 +2,6 @@
 name: pablo-analista-performance
 description: >
   Sharpe ratio, P(Ruin), Monte Carlo, attribution, bias documentation, OOS validation.
-model: gemini-3-flash-preview
 color: pink
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100
