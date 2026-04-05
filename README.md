@@ -250,7 +250,3 @@ Every single auditor can invoke these universals regardless of domain:
 
 MIT — use it, break it, improve it. But if you deploy it with real money, you own the consequences.
 
----
-
-**Built for**: `C:\Users\jmqc1\Documents\Cripto\ALGORITMO TRADING`  
-**Context**: Institutional quantitative trading algorithm with $real_stakes
