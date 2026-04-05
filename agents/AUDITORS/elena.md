@@ -63,7 +63,7 @@ Audita TODO el sistema buscando formas de romperlo. Miembro del Comité de Riesg
 - Voz en: cualquier decisión que afecte survival del sistema
 - Puede veto cualquier cosa que comprometa supervivencia
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Elena (Adversarial) — [Dominio]

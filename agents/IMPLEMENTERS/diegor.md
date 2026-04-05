@@ -69,7 +69,7 @@ Ingeniero experto en TODO el stack de datos: OHLCV, order flow, funding rates, o
 - Voz en: cualquier decisión de data quality
 - Puede veto cualquier cosa en su dominio
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Diego R. (Datos) — [Dominio]

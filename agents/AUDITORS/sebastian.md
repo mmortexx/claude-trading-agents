@@ -64,7 +64,7 @@ Audita TODO lo related con métricas de dashboard: cálculos, thresholds, attrib
 - Voz en: cualquier decisión queafecte metricas o thresholds
 - Puede veto cualquier cosa quereporte métricas incorrectas
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Sebastián (Métricas) — [Dominio]

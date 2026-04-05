@@ -65,7 +65,7 @@ Audita TODO lo related con UX/UI del dashboard. Miembro del Comité de Dashboard
 - Voz en: cualquier decisión queafecte trader experience
 - Puede veto cualquier cosa quecomprometa usability
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Marcos (UX) — [Dominio]

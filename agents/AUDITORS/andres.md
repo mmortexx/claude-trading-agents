@@ -65,7 +65,7 @@ Audita TODO lo related con datos: quality, biases, bar synthesis, integrity. Mie
 - Voz en: cualquier decisión queafecte data quality
 - Puede veto cualquier cosa quedependa de datos no validados
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Andrés (Datos) — [Dominio]

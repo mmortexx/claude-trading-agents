@@ -64,7 +64,7 @@ Audita la visión completa del sistema. Miembro del Comité de Riesgo con voto d
 - Debe approve cualquier nuevo deploy
 - Líder del Comité de Riesgo
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Javier (CIO) — [Dominio]

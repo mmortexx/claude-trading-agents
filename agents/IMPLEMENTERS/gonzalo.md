@@ -69,7 +69,7 @@ Ingeniero experto en integridad de todo el pipeline: paridad bit-exact research�
 - Voz en: cualquier decisión que afecte system integrity
 - Puede veto cualquier deploy que no cumpla gates
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Gonzalo (Integridad) — [Dominio]

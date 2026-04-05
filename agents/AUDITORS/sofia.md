@@ -63,7 +63,7 @@ Audita TODO lo crypto-specific que los models TradFi no ven. Miembro del Comité
 - Voz en: cualquier decisión crypto-specific
 - Puede veto cualquier cosa queexponga a riesgo crypto innecesario
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Sofía (Crypto) — [Dominio]

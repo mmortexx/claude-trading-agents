@@ -63,7 +63,7 @@ Audita TODO el portfolio construction y risk attribution. Miembro del Comité de
 - Voz en: sizing decisions, correlation assumptions
 - Puede veto cualquier cosa en su dominio
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Antonio (Portfolio) — [Dominio]

@@ -63,7 +63,7 @@ Audita TODO lo relacionado con ejecución: TCA, market impact, maker/taker, batc
 - Voz en: cualquier decisión queimpacte execution quality
 - Puede veto cualquier cosa que destruya edge en ejecución
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Diego (Ejecución) — [Dominio]

@@ -62,7 +62,7 @@ Audita TODO lo related con microestructura: order book, OFI, adverse selection, 
 - Voz en: cualquier decisión queafecte understanding del order book
 - Puede veto cualquier cosa queasuma liquidity sin fundamento
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Miguel Ángel (Microestructura) — [Dominio]

@@ -63,7 +63,7 @@ Audita TODO lo related con integridad del sistema: deployment gates, paridad res
 - Voz en: cualquier decisión queafecte system integrity
 - Puede veto cualquier deploy que no cumpla gates
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Roberto (Integridad) — [Dominio]

@@ -63,7 +63,7 @@ Audita TODO lo related con investigación: claims, peer-review, replicabilidad, 
 - Voz en: cualquier claim de predictividad o edge
 - Puede veto cualquier claim sin evidencia sólida
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Lorenzo (Investigación) — [Dominio]

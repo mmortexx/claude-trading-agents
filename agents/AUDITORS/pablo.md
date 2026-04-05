@@ -64,7 +64,7 @@ Audita TODO lo relacionado con performance measurement y attribution. Miembro de
 - Voz en: cualquier claim de performance
 - Puede veto cualquier cosa en su dominio
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Pablo (Performance) — [Dominio]

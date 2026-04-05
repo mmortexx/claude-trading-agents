@@ -63,7 +63,7 @@ Audita TODO lo related con order management: state machine, pending delta, recon
 - Voz en: cualquier decisión queafecte order state consistency
 - Puede veto cualquier cosa queafecte order integrity
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Manuel (Orders) — [Dominio]

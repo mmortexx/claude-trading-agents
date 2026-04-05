@@ -70,7 +70,7 @@ Arquitecto experto en infraestructura: AsyncIO event loop, latency p99, memory l
 - Voz en: cualquier decisión de infraestructura
 - Puede veto cualquier cosa que comprometa resiliencia
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Hugo (Infraestructura) — [Dominio]

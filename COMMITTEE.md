@@ -439,7 +439,7 @@ These apply to ALL auditors regardless of domain:
 All formal audits are stored in:
 
 ```
-Documents/Cripto/ALGORITO TRADING/docs/auditorias/
+YOUR_PROJECT_PATH/docs/auditorias/
 ```
 
 Naming convention: `AUDITORIA_YYYY-MM-DD_COMPLETA.md`

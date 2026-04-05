@@ -65,7 +65,7 @@ Audita TODO lo cuantitativo: estrategias, señales, estacionariedad, cointegraci
 - Voz en: cualquier claim de predictividad
 - Puede veto cualquier cosa en su dominio
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Carlos (Quant) — [Dominio]

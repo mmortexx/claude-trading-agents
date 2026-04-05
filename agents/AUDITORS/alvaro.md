@@ -64,7 +64,7 @@ Audita TODO lo técnico: AsyncIO, latency, memory, resiliencia, recovery. Miembr
 - Voz en: cualquier decisión queimpacte latency o reliability
 - Puede veto cualquier cosa queimpacte system stability
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Álvaro (Infra) — [Dominio]

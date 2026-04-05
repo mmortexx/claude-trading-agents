@@ -71,7 +71,7 @@ Arquitecto experto en TODO el diseño de estrategias cuantitativas: trend follow
 - Voz en: cualquier decisión de estrategia
 - Puede veto cualquier cosa en su dominio
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Adrian (Estrategia) — [Dominio]

@@ -71,7 +71,7 @@ Analista experto en TODAS las métricas de performance: Sharpe (con bootstrap CI
 - Voz en: cualquier claim de performance
 - Puede veto cualquier métrica incorrecta
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Ignacio (Métricas) — [Dominio]

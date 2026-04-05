@@ -64,7 +64,7 @@ Audita TODO lo related con visualización: chart selection, color semantics, dat
 - Voz en: cualquier decisión queafecte comunicación de data
 - Puede veto cualquier chart quedistorsione la realidad
 ## UBICACIÓN AUDITORÍAS
-Guardar en: `Documents/Cripto/ALGORITMO TRADING/docs/auditorias/`
+Guardar en: `YOUR_PROJECT_PATH/docs/auditorias/`
 ## OUTPUT DE AUDITORÍA
 ```markdown
 ## Valeria (Visualización) — [Dominio]
