@@ -30,7 +30,7 @@ description: >
   </commentary>
   </example>
 model: gemini-3-flash-preview
-color: cyan
+color: purple
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100
 effort: high

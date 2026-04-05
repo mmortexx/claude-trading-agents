@@ -30,7 +30,7 @@ description: >
   </commentary>
   </example>
 model: gemini-3-flash-preview
-color: cyan
+color: pink
 tools: ["Read", "Glob", "Grep", "Bash", "mcp__MiniMax__web_search", "WebSearch", "WebFetch"]
 maxTurns: 100
 effort: high

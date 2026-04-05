@@ -9,28 +9,28 @@
 | Agent File | Name | Type | Color | Domain |
 |------------|------|------|-------|--------|
 | `AUDITORS/fernando.md` | `fernando-arquitecto-riesgo` | Auditor | 🔴 red | Risk framework, Kelly, CVaR, sizing |
-| `AUDITORS/antonio.md` | `antonio-gestor-portfolio` | Auditor | 🔵 cyan | Correlation, HHI, margin, DCC-GARCH |
-| `AUDITORS/carlos.md` | `carlos-analista-cuantitativo` | Auditor | 🔵 cyan | Stationarity, cointegration, walk-forward |
+| `AUDITORS/antonio.md` | `antonio-gestor-portfolio` | Auditor | 🟢 green | Correlation, HHI, margin, DCC-GARCH |
+| `AUDITORS/carlos.md` | `carlos-analista-cuantitativo` | Auditor | 🟢 green | Stationarity, cointegration, walk-forward |
 | `AUDITORS/elena.md` | `elena-adversarial-tester` | Auditor | 🔴 red | Stress, cascade, edge cases, LaVaR |
-| `AUDITORS/pablo.md` | `pablo-analista-performance` | Auditor | 🔵 cyan | Sharpe bootstrap, P(Ruin), Monte Carlo |
+| `AUDITORS/pablo.md` | `pablo-analista-performance` | Auditor | 🩷 pink | Sharpe bootstrap, P(Ruin), Monte Carlo |
 | `AUDITORS/sofia.md` | `sofia-especialista-crypto` | Auditor | 🟡 yellow | Funding, liquidation cascades, on-chain |
 | `AUDITORS/javier.md` | `javier-director-cio` | Auditor | 🟣 magenta | Final approval, deadlock, institutional |
-| `AUDITORS/alvaro.md` | `alvaro-arquitecto-infra` | Auditor | 🔵 blue | AsyncIO, latency, memory, ProactorEventLoop |
-| `AUDITORS/diego.md` | `diego-especialista-ejecucion` | Auditor | 🔵 blue | TCA (6 components), market impact, maker/taker |
+| `AUDITORS/alvaro.md` | `alvaro-arquitecto-infra` | Auditor | 🟠 orange | AsyncIO, latency, memory, ProactorEventLoop |
+| `AUDITORS/diego.md` | `diego-especialista-ejecucion` | Auditor | 🩷 pink | TCA (6 components), market impact, maker/taker |
 | `AUDITORS/manuel.md` | `manuel-monitor-ordenes` | Auditor | 🔵 blue | State machine, idempotency, ghost orders |
 | `AUDITORS/roberto.md` | `roberto-auditor-integridad` | Auditor | 🔴 red | Deployment gates, CI/CD, secrets, SHA |
-| `AUDITORS/andres.md` | `andres-ingeniero-datos` | Auditor | 🔵 cyan | Data quality, survivorship bias, bar synthesis |
-| `AUDITORS/lorenzo.md` | `lorenzo-investigador-profundo` | Auditor | 🔵 cyan | Claims, peer-review, replicability |
-| `AUDITORS/miguelangel.md` | `miguelangel-microestructura` | Auditor | 🔵 cyan | Order book, VPIN, spoofing, adverse selection |
-| `AUDITORS/marcos.md` | `marcos` | Auditor | 🔵 cyan | Dashboard UX, KPI overload, cognitive friction |
-| `AUDITORS/valeria.md` | `valeria` | Auditor | 🔵 cyan | Chart selection, color semantics, data-ink |
-| `AUDITORS/sebastian.md` | `sebastian` | Auditor | 🔵 cyan | VaR+CVaR, rolling metrics, thresholds |
+| `AUDITORS/andres.md` | `andres-ingeniero-datos` | Auditor | 🟢 green | Data quality, survivorship bias, bar synthesis |
+| `AUDITORS/lorenzo.md` | `lorenzo-investigador-profundo` | Auditor | 🟢 green | Claims, peer-review, replicability |
+| `AUDITORS/miguelangel.md` | `miguelangel-microestructura` | Auditor | 🟠 orange | Order book, VPIN, spoofing, adverse selection |
+| `AUDITORS/marcos.md` | `marcos` | Auditor | 🟣 purple | Dashboard UX, KPI overload, cognitive friction |
+| `AUDITORS/valeria.md` | `valeria` | Auditor | 🟣 purple | Chart selection, color semantics, data-ink |
+| `AUDITORS/sebastian.md` | `sebastian` | Auditor | 🩷 pink | VaR+CVaR, rolling metrics, thresholds |
 | `IMPLEMENTERS/alejandro.md` | `alejandro-arquitecto-capital` | Implementer | 🟡 yellow | Kelly sizing, CVaR, volatility targeting |
 | `IMPLEMENTERS/adrian.md` | `adrian-arquitecto-estrategia` | Implementer | 🟡 yellow | Walk-forward, stationarity, cointegration |
-| `IMPLEMENTERS/diegor.md` | `diegor-ingeniero-datos` | Implementer | 🔵 cyan | Pipelines, survivorship bias, look-ahead |
+| `IMPLEMENTERS/diegor.md` | `diegor-ingeniero-datos` | Implementer | 🟢 green | Pipelines, survivorship bias, look-ahead |
 | `IMPLEMENTERS/gonzalo.md` | `gonzalo-ingeniero-integridad` | Implementer | 🔴 red | Parity, CI/CD, fingerprinting |
-| `IMPLEMENTERS/ignacio.md` | `ignacio-analista-metricas` | Implementer | 🔵 cyan | Sharpe BCa CI, Sortino, Monte Carlo |
-| `IMPLEMENTERS/hugo.md` | `hugo-arquitecto-infra` | Implementer | 🔵 blue | AsyncIO, circuit breakers |
+| `IMPLEMENTERS/ignacio.md` | `ignacio-analista-metricas` | Implementer | 🩷 pink | Sharpe BCa CI, Sortino, Monte Carlo |
+| `IMPLEMENTERS/hugo.md` | `hugo-arquitecto-infra` | Implementer | 🟠 orange | AsyncIO, circuit breakers |
 | `IMPLEMENTERS/ines.md` | `ines-qa-adversarial` | Implementer | 🔴 red | Stress, edge cases, regression |
 
 ---
@@ -131,10 +131,13 @@ The `color` field in each agent's frontmatter maps to terminal/UI styling. **Col
 | Color | Meaning | Agents |
 |-------|---------|--------|
 | 🔴 red | Risk, Adversarial, Integrity | Fernando, Elena, Roberto, Gonzalo, Ines |
-| 🔵 blue | Execution, Operations, Infrastructure | Alvaro, Diego, Manuel, Hugo |
-| 🟡 yellow | Capital, Strategy, Crypto | Sofia, Alejandro, Adrian |
-| 🟣 magenta | Executive / Final Authority | Javier |
-| 🔵 cyan | Research, Metrics, Data | Andres, Antonio, Carlos, Lorenzo, Miguel Angel, Marcos, Valeria, Sebastian, Pablo, Ignacio, DiegoR |
+| 🔵 blue | Orders, Operations | Manuel |
+| 🟡 yellow | Capital, Strategy, Crypto | Sofia, Adrian, Alejandro |
+| 🟠 orange | Infrastructure, Market Ops | Alvaro, Hugo, Miguel Angel |
+| 🟢 green | Research, Data, Quant | Andres, Antonio, Carlos, Lorenzo |
+| 🟣 purple | Visualization, UX | Valeria, Marcos |
+| 🟣 magenta | Executive / Final Authority | Javier (unique) |
+| 🩷 pink | Metrics, Performance, Execution | Pablo, Diego, Ignacio, Sebastian |
 
 ---
 
@@ -150,7 +153,7 @@ name: [unique-name]
 description: >
   Use this agent when [specific scenarios].
 model: gemini-3-flash-preview
-color: [red|blue|yellow|magenta|cyan]
+color: [red|blue|yellow|orange|green|purple|magenta|pink]
 tools: ["Read", "Glob", "Grep", "Bash"]
 maxTurns: 100
 effort: high
