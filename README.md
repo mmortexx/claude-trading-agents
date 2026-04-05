@@ -57,7 +57,7 @@ This committee makes Claude Code think like a quant hedge fund — even when the
          │      (17)        │◄──│───▶    (7)               │
          │                  │   │                          │
          │  Fernando  🔴   │   │  Alejandro (Capital) 🟡  │
-         │  Antonio   🔵   │   │  Adrian (Strategy)  🔵  │
+         │  Antonio   🔵   │   │  Adrian (Strategy)  🟡  │
          │  Carlos     🔵   │   │  DiegoR (Data)      🔵  │
          │  Elena     🔴   │   │  Gonzalo (Integrity)🔴  │
          │  Pablo     🔵   │   │  Ignacio (Metrics)  🔵  │
@@ -117,32 +117,32 @@ Example in Claude Code:
 | Agent | Role | Color | Key Veto Domain |
 |-------|------|-------|-----------------|
 | `fernando-arquitecto-riesgo` | Risk Architect | 🔴 red | Sizing, Kelly, CVaR, breakers |
-| `antonio-gestor-portfolio` | Portfolio Manager | 🔵 blue | Correlation, HHI, margin |
-| `carlos-analista-cuantitativo` | Quant Analyst | 🔵 blue | Stationarity, cointegration, overfitting |
+| `antonio-gestor-portfolio` | Portfolio Manager | 🔵 cyan | Correlation, HHI, margin |
+| `carlos-analista-cuantitativo` | Quant Analyst | 🔵 cyan | Stationarity, cointegration, overfitting |
 | `elena-adversarial-tester` | Adversarial Tester | 🔴 red | Stress, cascade, edge cases |
-| `pablo-analista-performance` | Performance Analyst | 🔵 blue | Sharpe, P(Ruin), Monte Carlo |
+| `pablo-analista-performance` | Performance Analyst | 🔵 cyan | Sharpe, P(Ruin), Monte Carlo |
 | `sofia-especialista-crypto` | Crypto Specialist | 🟡 yellow | Funding, liquidation cascades |
 | `javier-director-cio` | CIO / Director | 🟣 magenta | Final approval, deadlock |
 | `alvaro-arquitecto-infra` | Infra Architect | 🔵 blue | AsyncIO, latency, memory |
 | `diego-especialista-ejecucion` | Execution Specialist | 🔵 blue | TCA, market impact |
 | `manuel-monitor-ordenes` | Order Monitor | 🔵 blue | State machine, idempotency |
 | `roberto-auditor-integridad` | Integrity Auditor | 🔴 red | Deployment gates, secrets |
-| `andres-ingeniero-datos` | Data Engineer | 🔵 blue | Quality, survivorship bias |
+| `andres-ingeniero-datos` | Data Engineer | 🔵 cyan | Quality, survivorship bias |
 | `lorenzo-investigador-profundo` | Deep Researcher | 🔵 cyan | Claims, peer-review |
-| `miguelangel-microestructura` | Microstructure | 🔵 blue | Order book, spoofing |
+| `miguelangel-microestructura` | Microstructure | 🔵 cyan | Order book, spoofing |
 | `marcos` | UX/UI Designer | 🔵 cyan | Dashboard, KPIs |
 | `valeria` | Visualization | 🔵 cyan | Charts, color semantics |
-| `sebastian` | Metrics | 🔵 blue | Calculations, thresholds |
+| `sebastian` | Metrics | 🔵 cyan | Calculations, thresholds |
 
 ## The 7 Implementers
 
 | Agent | Role | Color | Domain |
 |-------|------|-------|--------|
 | `alejandro-arquitecto-capital` | Capital Architect | 🟡 yellow | Kelly sizing, CVaR, volatility targeting |
-| `adrian-arquitecto-estrategia` | Strategy Architect | 🔵 blue | Walk-forward, stationarity, cointegration |
-| `diegor-ingeniero-datos` | Data Engineer | 🔵 blue | Pipelines, survivorship bias, look-ahead |
+| `adrian-arquitecto-estrategia` | Strategy Architect | 🟡 yellow | Walk-forward, stationarity, cointegration |
+| `diegor-ingeniero-datos` | Data Engineer | 🔵 cyan | Pipelines, survivorship bias, look-ahead |
 | `gonzalo-ingeniero-integridad` | Integrity Engineer | 🔴 red | Parity, CI/CD, fingerprinting |
-| `ignacio-analista-metricas` | Metrics Analyst | 🔵 blue | Sharpe bootstrap, Monte Carlo |
+| `ignacio-analista-metricas` | Metrics Analyst | 🔵 cyan | Sharpe bootstrap, Monte Carlo |
 | `hugo-arquitecto-infra` | Infra Architect | 🔵 blue | AsyncIO, circuit breakers |
 | `ines-qa-adversarial` | QA Adversarial | 🔴 red | Stress, edge cases, regression |
 
