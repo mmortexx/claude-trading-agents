@@ -60,7 +60,7 @@ This committee makes Claude Code think like a quant hedge fund — even when the
          │  Antonio   🟢   │   │  Adrian (Strategy)  🟡  │
          │  Carlos     🟢   │   │  DiegoR (Data)      🟢  │
          │  Elena     🔴   │   │  Gonzalo (Integrity)🔴  │
-         │  Pablo     🩷   │   │  Ignacio (Metrics)  🩷  │
+         │  Pablo     🩷   │   │  Ignacio (Metrics)  🟠  │
          │  Sofia     🟡   │   │  Hugo (Infra)       🟠  │
          │  Alvaro    🟠   │   │  Ines (QA)          🔴  │
          │  Diego     🩷   │   │                        │
@@ -215,7 +215,7 @@ For a full committee review: use **Team mode** with `run_in_background: true` fo
 | `adrian-arquitecto-estrategia` | Strategy Architect | 🟡 yellow | Walk-forward, stationarity, cointegration |
 | `diegor-ingeniero-datos` | Data Engineer | 🟢 green | Pipelines, survivorship bias, look-ahead |
 | `gonzalo-ingeniero-integridad` | Integrity Engineer | 🔴 red | Parity, CI/CD, fingerprinting |
-| `ignacio-analista-metricas` | Metrics Analyst | 🩷 pink | Sharpe bootstrap, Monte Carlo |
+| `ignacio-analista-metricas` | Metrics Analyst | 🟠 orange | Sharpe bootstrap, Monte Carlo |
 | `hugo-arquitecto-infra` | Infra Architect | 🟠 orange | AsyncIO, circuit breakers |
 | `ines-qa-adversarial` | QA Adversarial | 🔴 red | Stress, edge cases, regression |
 

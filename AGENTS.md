@@ -29,7 +29,7 @@
 | `IMPLEMENTERS/adrian.md` | `adrian-arquitecto-estrategia` | Implementer | 🟡 yellow | Walk-forward, stationarity, cointegration |
 | `IMPLEMENTERS/diegor.md` | `diegor-ingeniero-datos` | Implementer | 🟢 green | Pipelines, survivorship bias, look-ahead |
 | `IMPLEMENTERS/gonzalo.md` | `gonzalo-ingeniero-integridad` | Implementer | 🔴 red | Parity, CI/CD, fingerprinting |
-| `IMPLEMENTERS/ignacio.md` | `ignacio-analista-metricas` | Implementer | 🩷 pink | Sharpe BCa CI, Sortino, Monte Carlo |
+| `IMPLEMENTERS/ignacio.md` | `ignacio-analista-metricas` | Implementer | 🟠 orange | Sharpe BCa CI, Sortino, Monte Carlo |
 | `IMPLEMENTERS/hugo.md` | `hugo-arquitecto-infra` | Implementer | 🟠 orange | AsyncIO, circuit breakers |
 | `IMPLEMENTERS/ines.md` | `ines-qa-adversarial` | Implementer | 🔴 red | Stress, edge cases, regression |
 
@@ -133,11 +133,11 @@ The `color` field in each agent's frontmatter maps to terminal/UI styling. **Col
 | 🔴 red | Risk, Adversarial, Integrity | Fernando, Elena, Roberto, Gonzalo, Ines |
 | 🔵 blue | Orders, Operations | Manuel |
 | 🟡 yellow | Capital, Strategy, Crypto | Sofia, Adrian, Alejandro |
-| 🟠 orange | Infrastructure, Market Ops | Alvaro, Hugo, Miguel Angel |
+| 🟠 orange | Infrastructure, Market Ops, Metrics | Alvaro, Hugo, Miguel Angel, Ignacio |
 | 🟢 green | Research, Data, Quant | Andres, Antonio, Carlos, Lorenzo |
 | 🟣 purple | Visualization, UX | Valeria, Marcos |
 | 🟣 magenta | Executive / Final Authority | Javier (unique) |
-| 🩷 pink | Metrics, Performance, Execution | Pablo, Diego, Ignacio, Sebastian |
+| 🩷 pink | Metrics, Performance, Execution | Pablo, Diego, Sebastian |
 
 ---
 
