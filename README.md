@@ -37,43 +37,46 @@ This committee makes Claude Code think like a quant hedge fund — even when the
 ## Team Architecture
 
 ```
-                         ┌────────────────────────────────────┐
-                         │           JAVIER (CIO)             │
-                         │   Final approval • Deadlock       │
-                         │   VETO: any domain, any time     │
-                         │   Ex Bridgewater + Millennium    │
-                         └──────────────┬───────────────────┘
-                                        │ escalates
-                                        ▼
-         ┌────────────────────────────────────────────────────┐
-         │              RISK COMMITTEE (sub)                 │
-         │  Fernando (double vote) • Antonio • Pablo        │
-         │  Elena (adversarial) • Sofia (crypto)            │
-         └────────────┬───────────────────┬────────────────┘
-                      │                   │
-                      ▼                   ▼
-         ┌──────────────────┐   ┌──────────────────────────┐
-         │    AUDITORS      │   │      IMPLEMENTERS        │
-         │      (17)        │◄──│───▶    (7)               │
-         │                  │   │                          │
-         │  Fernando  🔴   │   │  Alejandro (Capital) 🟡  │
-         │  Antonio   🟢   │   │  Adrian (Strategy)  🟡  │
-         │  Carlos     🟢   │   │  DiegoR (Data)      🟢  │
-         │  Elena     🔴   │   │  Gonzalo (Integrity)🔴  │
-         │  Pablo     🩷   │   │  Ignacio (Metrics)  🟠  │
-         │  Sofia     🟡   │   │  Hugo (Infra)       🟠  │
-         │  Alvaro    🟠   │   │  Ines (QA)          🔴  │
-         │  Diego     🩷   │   │                        │
-         │  Manuel    🔵   │   └──────────────────────────┘
-         │  Roberto   🔴   │
-         │  Andres    🟢   │   AUDIT CYCLE:
-         │  Lorenzo   🟢   │   1. Implementer drafts
-         │  Miguel A. 🟠   │   2. Auditor evaluates
-         │  Marcos    🟣   │   3. Veto or approval
-         │  Valeria   🟣   │   4. Correction if needed
-         │  Sebastian 🩷   │   5. Javier final sign-off
-         │  Javier    🟣   │
-         └──────────────────┘
+                         ┌─────────────────────────┐
+                         │       JAVIER (CIO)       │
+                         │  Final approval          │
+                         │  Deadlock resolution     │
+                         │  VETO: any domain       │
+                         └───────────┬─────────────┘
+                                     │ escalates
+                                     ▼
+              ┌──────────────────────────────────────┐
+              │          RISK COMMITTEE               │
+              │  Fernando (2x) • Antonio • Pablo     │
+              │  Elena • Sofia                        │
+              └───────────────┬──────────────────────┘
+                              │
+              ┌───────────────┴───────────────┐
+              ▼                               ▼
+┌─────────────────────────┐     ┌──────────────────────────┐
+│        AUDITORS         │     │      IMPLEMENTERS        │
+│          (17)           │◄───►│          (7)            │
+├─────────────────────────┤     ├──────────────────────────┤
+│ Fernando      🔴  Risk  │     │ Alejandro     🟡  Cap   │
+│ Antonio       🟢  Port  │     │ Adrian        🟡  Strat │
+│ Carlos        🟢  Quant │     │ DiegoR        🟢  Data  │
+│ Elena         🔴  Adv   │     │ Gonzalo       🔴  Int   │
+│ Pablo         🩷  Perf  │     │ Ignacio       🟠  Metr  │
+│ Sofia         🟡  Crypto│     │ Hugo          🟠  Infra │
+│ Alvaro        🟠  Infra │     │ Ines          🔴  QA   │
+│ Diego         🩷  Exec  │     └──────────────────────────┘
+│ Manuel        🔵  Order │
+│ Roberto       🔴  Int   │
+│ Andres        🟢  Data  │
+│ Lorenzo       🟢  Res   │
+│ Miguel Angel  🟠  Micro │
+│ Marcos        🟣  UX    │
+│ Valeria       🟣  Viz   │
+│ Sebastian     🩷  Metr  │
+│ Javier        🟣  Exec  │
+└─────────────────────────┘
+
+AUDIT CYCLE: Implementer drafts → Auditor evaluates → Veto/Approve → Correction → Javier sign-off
 ```
 
 ---
